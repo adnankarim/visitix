@@ -1,0 +1,11 @@
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+  res.status.send('Hello MOFO');
+});
+//
+const port = 8000;
+//
+app.listen(port, () => {
+  console.log(`app running on port ${port}`);
+});

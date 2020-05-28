@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/', (req, res) => {
-  res.status.send('Hello MOFO');
+  res.status(200).send('Hello Nodes');
 });
 //
 const port = 8000;
